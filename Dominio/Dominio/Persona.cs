@@ -10,8 +10,12 @@ namespace Dominio
     {
         public int Dni { set; get; }
         public DateTime FechaNacimiento { set; get; }
-        public char Nombres { set; get; }
-        public char Apellidos { set; get; }
+        public string Nombres { set; get; }
+        public string Apellidos { set; get; }
+
+        public int Edad { get; set; }
+
+       public int Cuil { get; set; }
 
     }
 }
