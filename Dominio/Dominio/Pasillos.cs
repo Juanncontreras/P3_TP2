@@ -8,8 +8,10 @@ namespace Dominio
 {
     public class Pasillos
     {
-       public int CantCompartimientos;
-        public int CantLados;
+       public int CantCompartimientos { get; set; }
+
+
+        public int CantLados { get; set; }
 
 
     }
